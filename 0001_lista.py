@@ -1,4 +1,4 @@
-lalista = [
+lista = [
     10,
     14,
     19, 
@@ -8,12 +8,12 @@ lalista = [
     33 
 ]
 
-print(lalista)
+print(lista)
 
-for elemento in lalista:
+for elemento in lista:
     print(elemento)
-
-    print('__________________________')
-    longitud_numero= len(lalista)
-    longitud= f'Total elementos en lalista: {longitud_numero}'
-    print(longitud)
+    
+print('_______________')
+longitud_numero = len(lista)
+longitud = f'Total elementos en lista: {longitud_numero}'
+print(longitud)
