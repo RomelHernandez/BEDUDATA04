@@ -13,7 +13,7 @@ print(lalista)
 for elemento in lalista:
     print(elemento)
 
-    print('----------')
+    print('__________________________')
     longitud_numero= len(lalista)
     longitud= f'Total elementos en lalista: {longitud_numero}'
     print(longitud)
